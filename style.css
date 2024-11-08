@@ -7,22 +7,126 @@ body {
     color: #e5edeb;
     font-family: "Poppins", serif;
 }
-header{
+
+header {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #0f201d;
-}
-.content{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.box{
-    border-radius: 15px;
-    margin-top: 3rem;
-    width: 80rem;
-    height:  45rem;
     background-color: #0f201d;
 }
 
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin: 5rem;
+    border-radius: 15px;
+    margin-top: 3rem;
+    width: 40rem;
+    height: 40rem;
+}
+
+.box-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    margin: 5rem;
+    border-radius: 15px;
+    margin-top: 3rem;
+    width: 40rem;
+    height: 40rem;
+    background-color: #0f201d;
+}
+
+.box-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5rem;
+    border-radius: 15px;
+    margin-top: 4rem;
+    width: 75rem;
+    height: 90vh;
+    background-color: #0f201d;
+}
+
+.button1 {
+    margin: 1rem;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    color: #e7f7f8;
+    padding-left: 33px;
+    padding-right: 33px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    border-radius: 9px;
+    background: #277e6b;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.button1:hover {
+    transform: translateY(-2px);
+    box-shadow: 7px 5px 56px -14px #1d8770;
+}
+
+.button1:active {
+    transform: scale(0.97);
+    box-shadow: 7px 5px 56px -10px #1d8770;
+}
+
+.button2 {
+    margin: 1rem;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    color: #e7f7f8;
+    padding-left: 33px;
+    padding-right: 33px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    border-radius: 9px;
+    background: #0f201d;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.button2:hover {
+    transform: translateY(-2px);
+    box-shadow: 7px 5px 56px -14px #1b3b36;
+}
+
+.button2:active {
+    transform: scale(0.97);
+    box-shadow: 7px 5px 56px -10px #114b3e;
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.functions{
+    text-align: center;
+    display: flex;
+    align-items: space-evenly;
+    flex-direction: row;
+}
+.preco,.consumo,.distancia{
+    display: flex;
+    margin: 3rem;
+    flex-direction: column;
+}
