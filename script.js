@@ -4,6 +4,7 @@ function calcular(){
    let preco = document.getElementById(`preco`)
    let res = document.getElementById(`res`)
    let val = Number(distancia.value / consumo.value * preco.value)
-   res.innerHTML = `R$ ${val}`
-
+   let litro = Number(val / preco.value)
+   res.innerHTML = `A viagem vai custar: R$ ${val}`
+   res.innerHTML += `<br>consumo de combustivel : ${litro.toFixed(2)} L`
 }

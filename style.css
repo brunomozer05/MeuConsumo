@@ -130,3 +130,34 @@ header {
     margin: 3rem;
     flex-direction: column;
 }
+input{
+    border-radius: 2px;
+    border: 0 none;
+    outline: none;
+}
+
+
+/*-- Esconder as setas do Input --*/
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+/*--Scrollbar--*/
+
+::-webkit-scrollbar {
+    margin-left: 1em;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 8px;
+    background-color: rgba(131, 131, 131, 0.1);
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #1d8770;
+  }
+  /*----*/
