@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;800&display=swap');
 
 body {
+    width: 100%;
+    height: 100%;
     margin: 0;
     padding: 0;
     background-color: #0a1513;
@@ -119,45 +121,59 @@ header {
     justify-content: flex-start;
 }
 
-.functions{
+.functions {
     text-align: center;
     display: flex;
     align-items: space-evenly;
     flex-direction: row;
 }
-.preco,.consumo,.distancia{
+
+.preco,
+.consumo,
+.distancia {
     display: flex;
     margin: 3rem;
     flex-direction: column;
 }
-input{
+
+input {
     border-radius: 2px;
     border: 0 none;
     outline: none;
 }
 
 
-/*-- Esconder as setas do Input --*/
-input[type=number]::-webkit-inner-spin-button { 
-    -webkit-appearance: none;
-    
+.res {
+    height: 10%;
 }
-input[type=number] { 
-   -moz-appearance: textfield;
-   appearance: textfield;
+
+
+
+/*-- Esconder as setas do Input --*/
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
 
 }
+
+input[type=number] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+
+}
+
 /*--Scrollbar--*/
 
 ::-webkit-scrollbar {
     margin-left: 1em;
-  }
-  
-  ::-webkit-scrollbar {
+}
+
+::-webkit-scrollbar {
     width: 8px;
     background-color: rgba(131, 131, 131, 0.1);
-  }
-  ::-webkit-scrollbar-thumb {
+}
+
+::-webkit-scrollbar-thumb {
     background-color: #1d8770;
-  }
-  /*----*/
+}
+
+/*----*/
