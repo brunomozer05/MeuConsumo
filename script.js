@@ -13,3 +13,18 @@ function calcular() {
       res.innerHTML += `<br>consumo de combustivel : ${litro.toFixed(2)} L`
    }
 }
+
+function comparaComb() {
+   let gas = Number(document.getElementById(`gasolina`).value)
+   let eta = Number(document.getElementById(`etanol`).value)
+   let res = document.getElementById(`res2`)
+   let val = eta / gas
+
+
+   if (val > 0.7) {
+      res.innerHTML = `Gasolina`
+   } else {
+      res.innerHTML = `Etanol`
+   }
+
+}
