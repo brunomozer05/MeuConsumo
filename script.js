@@ -9,7 +9,7 @@ function calcular() {
    } else {
       let val = (distancia / consumo) * preco
       let litro = val / preco
-      res.innerHTML = `A viagem vai custar: R$ ${val}`
+      res.innerHTML = `A viagem vai custar: R$ ${val.toFixed(2)}`
       res.innerHTML += `<br>consumo de combustivel : ${litro.toFixed(2)} L`
    }
 }
