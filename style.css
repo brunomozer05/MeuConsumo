@@ -56,7 +56,20 @@ header {
     margin: 5rem;
     border-radius: 15px;
     margin-top: 4rem;
-    width: 75rem;
+    width: 70vw;
+    height: 90vh;
+    background-color: #0f201d;
+}
+
+.box-4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin: 5rem;
+    border-radius: 15px;
+    margin-top: 4rem;
+    width: 45vw;
     height: 90vh;
     background-color: #0f201d;
 }
@@ -146,7 +159,6 @@ input {
 .res {
     height: 10%;
 }
-
 
 
 /*-- Esconder as setas do Input --*/

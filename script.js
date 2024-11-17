@@ -20,8 +20,11 @@ function comparaComb() {
    let res = document.getElementById(`res2`)
    let val = eta / gas
 
+   if (gas == 0 || eta == 0) {
+      alert(`[ERRO] Por gentileza, preencha os dados do formulário corretamente.`)
 
-   if (val > 0.7) {
+   } else if (val > 0.7) {
+
       res.innerHTML = `Gasolina`
    } else {
       res.innerHTML = `Etanol`
