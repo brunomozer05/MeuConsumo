@@ -160,6 +160,34 @@ input {
     height: 10%;
 }
 
+/*-- Efeito Logo --*/
+
+.logo {
+    animation: fade 1.5s;
+}
+
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    0% {
+        transform: translateY(-30px);
+    }
+}
 
 /*-- Esconder as setas do Input --*/
 input[type=number]::-webkit-inner-spin-button {
