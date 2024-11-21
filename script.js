@@ -22,10 +22,9 @@ function comparaComb() {
 
    let imgDiv = document.getElementById('imgDiv');
    let img = document.createElement(`img`)
-
+   imgDiv.innerHTML = '';
    if (gas == 0 || eta == 0) {
       alert(`[ERRO] Por gentileza, preencha os dados do formulário corretamente.`)
-
    } else if (val > 0.7) {
       img.src = `img/gasolina.png`
       imgDiv.appendChild(img);
