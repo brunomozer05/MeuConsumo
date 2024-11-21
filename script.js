@@ -23,6 +23,7 @@ function comparaComb() {
    let imgDiv = document.getElementById('imgDiv');
    let img = document.createElement(`img`)
    imgDiv.innerHTML = '';
+   img.style.width = '150px';
    if (gas == 0 || eta == 0) {
       alert(`[ERRO] Por gentileza, preencha os dados do formulário corretamente.`)
    } else if (val > 0.7) {

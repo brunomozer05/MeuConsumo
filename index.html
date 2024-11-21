@@ -53,14 +53,18 @@
     <div id="alcool_x_gasolina" class="content">
         <div class="box-4">
             <h1>Qual vale mais a pena?</h1>
-            <div class="imputs">
-            <p>Gasolina <input id="gasolina" type="number" placeholder="R$ 0,00"></p>
-            <p>Etanol <input id="etanol" type="number" placeholder="R$ 0,00"></p>
+            <div class="resultado">
+                <div id="imgDiv"></div>
+                <div id="res2" class="res"></div>
             </div>
-            <div id="imgDiv">
-
+            <div class="inputs">
+                <div class="inpColuna">
+                <p style="font-size: large;">Gasolina</p><input id="gasolina" type="number" placeholder="R$ 0,00">
             </div>
-            <div id="res2" class="res"></div>
+            <div class="inpColuna">
+                <p style="font-size: large;">Etanol</p><input id="etanol" type="number" placeholder="R$ 0,00">
+            </div>
+            </div>
             <button class="button1" onclick="comparaComb()">Calcular</button>
         </div>
     </div>

@@ -78,6 +78,14 @@ header {
     background-color: #0f201d;
 }
 
+.resultado{
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .button1 {
     margin: 1rem;
     font-family: "Inter", sans-serif;
@@ -159,6 +167,13 @@ input {
     outline: none;
 }
 
+.inputs{
+    display: flex;
+    text-align: center;
+}
+.inpColuna{
+    margin: 2rem;
+}
 
 .res {
     height: 10%;
