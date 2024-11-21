@@ -20,14 +20,20 @@ function comparaComb() {
    let res = document.getElementById(`res2`)
    let val = eta / gas
 
+   let imgDiv = document.getElementById('imgDiv');
+   let img = document.createElement(`img`)
+
    if (gas == 0 || eta == 0) {
       alert(`[ERRO] Por gentileza, preencha os dados do formulário corretamente.`)
 
    } else if (val > 0.7) {
-
-      res.innerHTML = `Gasolina`
+      img.src = `img/gasolina.png`
+      imgDiv.appendChild(img);
+      res.innerHTML = `<h2>Gasolina</h2>`
    } else {
-      res.innerHTML = `Etanol`
+      img.src = `img/etanol.png`
+      imgDiv.appendChild(img);
+      res.innerHTML = `<h2>Etanol</h2>`
    }
 
 }
