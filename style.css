@@ -78,7 +78,7 @@ header {
     background-color: #0f201d;
 }
 
-.resultado{
+.resultado {
     height: 30%;
     display: flex;
     align-items: center;
@@ -167,11 +167,12 @@ input {
     outline: none;
 }
 
-.inputs{
+.inputs {
     display: flex;
     text-align: center;
 }
-.inpColuna{
+
+.inpColuna {
     margin: 2rem;
 }
 
